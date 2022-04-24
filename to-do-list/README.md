@@ -1,1 +1,15 @@
-# to-do-list-shanghai
+This project is for creating to-do lists. You can add tasks by typing them into the input box and either clicking the submit button or hitting "enter". Additionally, you can cross them off or delete them, either individually or as a whole. In order to delete an individual tass, you must first cross it out.
+
+Link: https://to-do-list-pudong.netlify.app/
+
+![to-do-list-snapshot](https://user-images.githubusercontent.com/98935149/164950574-8d3f8a78-7c08-4ed3-ad48-ab2e806b0063.jpg)
+
+How?
+Tech: HTML, CSS, JS
+HTML: Of particular importance were the input, the unordered list, and the three buttons. Although this project is processed locally, I wrapped the input element in a form element, because going forward the form element could be used for sending data to the server. Each of the buttons has the attribute "type" set to "button", which has no default behavior and is often used to set up event listeners. The unordered list element is in the HTML in order to have a location to add the tasks as lists elements with JS. 
+JS: I first created four variables in order to make it easier to work with those four targeted elements later on. I then created five event listeners: two for creating tasks (one for submitting with the "enter" key and another for submitting with a button), one for crossing off tasks, one that clears the whole list, and one that erases individual tasks once they've been crossed off. The two functions that creates tasks start by creating li elements, assigning the value of the input to the inner text of the li, and then appending the li to the ul parent element. The input is then cleared after each submission by assigning an empty string to the input value. The function that crosses off the tasks grabs the targets of the event with the declared class and assigns each of them a toggled class (refer to CSS). In order to remove individual tasks, I targeted li's that had the class toggled onto them and looped through them. In order to remove the entire list, the function assigns an empty string to the unordered list element. 
+CSS: There is a (toggled) class assigned a property and value which allow text to be crossed out. A background image is added to the body of the DOM, and the font color and size of different elements is also added, along with background colors, margins, and padding. Several items are aligned using an automatic margin, flexbox, or the property text-align. There are two media queries added in order to ensure that text is shrunk down to more appropriate sizes for smaller screens. 
+
+Optimizations: Originally, tasks could only be added by clicking the "submit" button. I went back and added an event listener on the input element itself, so that tasks could be dropped down to the list using the enter key, as well.
+Lessons Learned: I had to change my settings, as my computer was zooming in on my projects whenever I hit the enter key. This caused confusion when it came to styling. This was the first project I created where text could be crossed out and later only that text could be removed. I practiced doing this by deleting my code and retyping it while saying out loud everything I had done in order to help myself retain the information.
+
