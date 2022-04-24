@@ -1,4 +1,4 @@
-This project is for creating to-do lists. You can add tasks by typing them into the input box and either clicking the submit button or hitting "enter". Additionally, you can cross them off or delete them, either individually or as a whole. In order to delete an individual tass, you must first cross it out.
+This platform enables the user to create tasks in order to planning out their day.Add tasks by typing them into the input and simply clicking the "Submit" button or hitting the "enter" key. Delete individual tasks by crossing them off by clicking on them, then hitting the "Clear Task" button. Click "Clear All" to delete all tasks. 
 
 Link: https://to-do-list-pudong.netlify.app/
 
