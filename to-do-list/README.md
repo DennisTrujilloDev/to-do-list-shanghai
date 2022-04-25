@@ -1,6 +1,6 @@
 This platform enables the user to create tasks in order to planning out their day.Add tasks by typing them into the input and simply clicking the "Submit" button or hitting the "enter" key. Delete individual tasks by crossing them off by clicking on them, then hitting the "Clear Task" button. Click "Clear All" to delete all tasks. 
 
-Link: https://to-do-list-pudong.netlify.app/
+Link: https://to-do-list-shanghai.netlify.app/
 
 ![to-do-list-snapshot](https://user-images.githubusercontent.com/98935149/164950574-8d3f8a78-7c08-4ed3-ad48-ab2e806b0063.jpg)
 
